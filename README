@@ -2,3 +2,16 @@ README -
 
 This library is used to control DIYSandbox Arduino-based WiFi products.
 
+SPI Hack - Carl Worley <github+wirefree@kf5bau.net>
+
+The GS1011 module only supports ASCII when used with the UART. If you want to
+support binary data, you will have to wire the GS1011 SPI ports to the SPI
+ports on the Platinum. Visit http://imgur.com/a/8pDxA to see a visual of how
+the pins need to be wired.
+
+GS1011          -  Platinum
+SSPI_DIN  (30) <-- MOSI
+SSPI_DOUT (27) --> MISO
+SSPI_CLK  (28) <-- SCK
+SSPI_CS   (29) <-- D3
+GPIO28    (46) --> D2

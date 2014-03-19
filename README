@@ -15,3 +15,4 @@ SSPI_DOUT (27) --> MISO
 SSPI_CLK  (28) <-- SCK
 SSPI_CS   (29) <-- D3
 GPIO28    (46) --> D2
+GPIO26    (35) --- Pull-up to 3v3

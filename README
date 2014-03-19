@@ -6,7 +6,7 @@ SPI Hack - Carl Worley <github+wirefree@kf5bau.net>
 
 The GS1011 module only supports ASCII when used with the UART. If you want to
 support binary data, you will have to wire the GS1011 SPI ports to the SPI
-ports on the Platinum. Visit http://imgur.com/a/8pDxA to see a visual of how
+ports on the Platinum. Visit http://imgur.com/9AJNJJv to see a visual of how
 the pins need to be wired.
 
 GS1011          -  Platinum
